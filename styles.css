@@ -55,7 +55,7 @@
   border-style: none;
   width: 10rem;
   height: 4rem;
-  box-shadow: 0px 0px 20px gray;
+  box-shadow: 0px 0px 2rem rgb(125, 121, 121);
 }
 .cardevents {
   margin: 1rem;
@@ -72,32 +72,35 @@
   width: 99vw;
   display: flex;
   flex-direction: row;
-  background-color: lightpink;
+  background-color: white;
   justify-content: space-between;
 }
 .cardcontainer {
+  box-shadow: 0px 0px 2rem rgb(145, 141, 141);
   display: flex;
   flex-direction: column;
-  border: 1rem;
-  border-color: black;
+  border-color: rgb(243, 237, 237);
   border-style: solid;
-  border-width: 0.4rem;
+  border-width: 2px;
   height: 42rem;
   width: 25rem;
   padding-top: 0rem;
   background-color: white;
-  border-radius: 1.5rem;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   align-items: center;
   gap: 2rem;
   margin: 3rem;
 }
+.imagebox {
+  height: 40%;
+  width: 100%;
+}
 .imagebox img {
+  height: 100%;
+  width: 100%;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  height: 18rem;
-  width: 24.3rem;
 }
 .imgheading {
   text-align: center;
@@ -120,4 +123,5 @@
   font-size: 1.5rem;
   background-color: lightgoldenrodyellow;
   border-radius: 0.5rem;
+  box-shadow: 0px 0px 1rem rgb(153, 151, 151);
 }
