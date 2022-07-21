@@ -1,201 +1,153 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-   <script src="https://kit.fontawesome.com/914b41d581.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/914b41d581.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="main-container">
-      <div class="navbar">
-        <div class="heading">ALPHA-TOURS</div>
-        <i id="A-Logo" class="fa-solid fa-dragon"></i>
-        <div class="menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tours</a></li>
-            <li><a href="#">Packages</a></li>
-            <li><a href="#">Hotels</a></li>
-          </ul>
-        </div>
-        <div class="button">
-          <button>Log-in</button> <button>Sign-up</button>
-        </div>
-      </div>
-      <div class="searchbox">
-      <div class="input-mainbox"><input class="inputbox" placeholder="Enter location" type="text"/>
-      <i class="fa-solid fa-magnifying-glass"></i></div>
-      <div class="date-box">
-      <div class="from-date">
-        <span class="from">FROM</span>
-        <span class="date">22/4/2022</span>
-      </div>
-      <div class="to-date">
-         <span class="to">TO</span>
-         <span class="date">29/4/2022</span>
-      </div>
-      </div>
-      <button class="search-btn">Search</button>
-    </div>
-    </div>
-    
-    <div class="cardevents">Up-Comming Tours</div>
-    <div class="maincardcontainer">
-      <div class="cardcontainer">
-        <div class="imagebox">
-          <img
-            src="https://assets.traveltriangle.com/blog/wp-content/uploads/2017/12/76.jpg"
-            alt=""
-          />
-        </div>
-        <div class="imgheading"><h1>Manali</h1></div>
-        <div class="paragraph">
-          <p>
-            Manali is a resort and tourist town nestled in the mountains of the
-            Indian state of Himachal Pradesh near the northern end of the Kullu
-            Valley in the Beas River Valley.
-          </p>
-        </div>
-        <div class="price">Price-15,000/-</div>
-        <div class="cardbutton"><button>See More</button></div>
-      </div>
-      <div class="cardcontainer">
-        <div class="imagebox">
-          <img
-            src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455__340.jpg"
-            alt=""
-          />
-        </div>
-        <div class="imgheading"><h1>Goa</h1></div>
-        <div class="paragraph">
-          <p>
-            The state of Goa, in India, is famous for its beaches and places of
-            worship. Tourism is its primary industry, and is generally focused
-            on the coastal areas of Goa, with decreased tourist activity inland.
-          </p>
-        </div>
-        <div class="price">Price-10,000/-</div>
-        <div class="cardbutton"><button>See More</button></div>
-      </div>
-      <div class="cardcontainer">
-        <div class="imagebox">
-          <img src="https://static.toiimg.com/photo/63365869.cms" alt="" />
-        </div>
-        <div class="imgheading"><h1>Kerala</h1></div>
-        <div class="paragraph">
-          <p>
-            Kerala, a state situated on the tropical Malabar Coast of
-            southwestern India, is one of the most popular tourist destinations
-            in the country.Kerala is famous especially for its ecotourism
-            initiatives and beautiful backwaters.
-          </p>
-        </div>
-        <div class="price">Price-25,000/-</div>
-        <div class="cardbutton"><button>See More</button></div>
-      </div>
-      <div class="cardcontainer">
-        <div class="imagebox">
-          <img
-            src="https://images.memphistours.com/large/300049555_Leh-Ladakh.jpg"
-            alt=""
-          />
-        </div>
-        <div class="imgheading"><h1>Leh-Ladakh</h1></div>
-        <div class="paragraph">
-          <p>
-            Tourism is one of an economic contributor to the union territory of
-            Ladakh in Northern India. Ladakh is composed of the Leh and Kargil
-            districts.
-          </p>
-        </div>
-        <div class="price">Price-30,000/-</div>
-        <div class="cardbutton"><button>See More</button></div>
-      </div>
-    </div>
-    <div id="destiheading">Popular-Destinations</div>
-    <div class="desti-container">
-      <div class="destination-card">
-        <div class="desti-imgbox">
-          <img
-            src="https://www.planetware.com/photos-large/F/france-paris-eiffel-tower.jpg"
-            alt=""
-          />
-        </div>
-        <div class="desti-card-tot">
-          <div class="desti-name">Paris</div>
-          <div class="desti-para">
-            <p>
-              If you are planning a visit or becoming a resident of Paris, you
-              will find everything you need in this charming city. The fashion
-              capital of the world, the city has a long history of art and a
-              rich culture. From museums to restaurants, cafés, and parks, the
-              city offers endless activities to experience French culture.
-            </p>
+    <header>
+      <nav class="container">
+        <div class="logo">Portfolio</div>
+        <ul>
+          <a href="#hero">
+            <li>Home</li>
+          </a>
+          <a href="#project">
+            <li>Projects</li>
+          </a>
+          <a href="#contact">
+            <li>Contacts</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero_img animate__animated animate__bounceInLeft">
+            <img src="images/Hero_img.JPG" alt="hero image" />
           </div>
-          <div class="desti-button"><button>See More</button></div>
-        </div>
-      </div>
-      <div class="destination-card">
-        <div class="desti-imgbox">
-          <img
-            src="https://www.hoteliermiddleeast.com/2021/05/RU4KdoGk-Soneva-Jani-Resort-Villa.jpg"
-            alt=""
-          />
-        </div>
-        <div class="desti-card-tot">
-          <div class="desti-name">Maldives</div>
-          <div class="desti-para">
-            <p>
-              Maldives, in full Republic of Maldives, also called Maldive
-              Islands, independent island country in the north-central Indian
-              Ocean. It consists of a chain of about 1,200 small coral islands
-              and sandbanks (some 200 of which are inhabited), grouped in
-              clusters, or atolls.
-            </p>
+          <div class="hero_content">
+            <h1>
+              <span class="hello_text">Hello</span> , I am
+              <span class="name_text">Alpha</span>
+            </h1>
+            <h2>Frontend Developer</h2>
           </div>
-          <div class="desti-button"><button>See More</button></div>
         </div>
-      </div>
-      <div class="destination-card">
-        <div class="desti-imgbox">
-          <img src="https://hobanvisor.news/wp-content/uploads/2020/09/Greece.jpg" alt="" />
-        </div>
-        <div class="desti-card-tot">
-          <div class="desti-name">Santorini</div>
-          <div class="desti-para">
-            <p>
-              Why visit Santorini? Santorini is the most famous of all Greek
-              islands and a number one summer destination worldwide. The beauty
-              of this island is incomparable to any other in the world. The
-              amazing Caldera formed by the volcanic eruption centuries ago,
-              resulted in the most amazing sea views a human eye can ever see
-            </p>
+      </section>
+      <section id="project">
+        <h2>PROJECTS</h2>
+        <div class="container">
+          <div class="project_container">
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_1.png" alt="project 1" />
+                <div class="card_content">
+                  <h3>Job Application</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_2.png" alt="project 2" />
+                <div class="card_content">
+                  <h3>Parallax Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_3.png" alt="project 3" />
+                <div class="card_content">
+                  <h3>Landing Page</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_4.png" alt="project 4" />
+                <div class="card_content">
+                  <h3>Restaurant Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_5.png" alt="project 5" />
+                <div class="card_content">
+                  <h3>Music Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_6.png" alt="project 6" />
+                <div class="card_content">
+                  <h3>Youtube Clone</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_7.png" alt="project 7" />
+                <div class="card_content">
+                  <h3>Documentation Website</h3>
+                </div>
+              </div>
+            </div>
+            <div class="grid_item">
+              <div class="card">
+                <img src="images/Project_8.png" alt="project 8" />
+                <div class="card_content">
+                  <h3>Blog Website</h3>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="desti-button"><button>See More</button></div>
         </div>
-      </div>
-      <div class="destination-card">
-        <div class="desti-imgbox">
-          <img
-            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/88/bf/ba.jpg"
-            alt=""
-          />
-        </div>
-        <div class="desti-card-tot">
-          <div class="desti-name">Dubai</div>
-          <div class="desti-para">
-            <p>
-              Dubai is one of the world's leading tourism destinations and tourism in Dubai is a major source of revenue. The city hosted 14.9 million overnight visitors in 2016. In 2018, Dubai was the fourth most-visited city in the world based on the number of international visitors.
-            </p>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Let's work together...</h2>
+          <div class="top_contact">
+            <div class="contact_way">
+              <i class="fab fa-linkedin"></i>
+              <h3>Linkedin</h3>
+            </div>
+            <div class="contact_way">
+              <i class="fa fa-twitter"></i>
+              <h3>Twitter</h3>
+            </div>
+            <div class="contact_way">
+              <h3>@ send mail</h3>
+            </div>
           </div>
-          <div class="desti-button"><button>See More</button></div>
+          <div class="bottom_contact">
+            <div class="contact_way">
+              <i class="fab fa-github"></i>
+              <h3>Github</h3>
+            </div>
+            <div class="contact_way">
+              <i class="fa fa-mobile"></i>
+              <h3>Mobile</h3>
+            </div>
+          </div>
         </div>
-       </div>
-      </div>
-   
-    </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">Created by The Alpha</div>
+    </footer>
   </body>
 </html>
